@@ -1,0 +1,22 @@
+.category{
+	background-color:#000;
+	background-size:cover;
+	background-position: center center;
+	position: relative;
+	height: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border-radius: 5px !important;
+	align-items: center;
+	transform: scale(1);
+	transition: transform .2s ease-in-out;
+
+	&__name{
+		text-shadow: rgba(0, 0, 0, .5) 4px 4px 4px;
+	}
+	
+	&:hover{
+		transform: scale(0.97);
+	}
+}
