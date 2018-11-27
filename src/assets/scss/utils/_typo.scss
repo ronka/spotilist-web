@@ -1,0 +1,40 @@
+/**
+ *
+ * Typos
+ *
+ */
+
+#page-title{
+    background: $brand-primary;
+    padding: 34px 0 38px;
+
+    @media (max-width:$screen-sm){
+        padding: 16px 0 18px;
+    }
+    
+    &--main{
+        color: #fff;
+        font-size:1.6em;
+        margin:0;
+    }
+    &--sub{
+        color: #fff;
+        margin-top:10px;
+        margin-bottom:0;
+    }
+}
+
+#sub-page-title{
+    font-size: 1.5em;
+    margin-top:0;
+}
+
+.post__title{
+    //font-size:1.35em;
+    margin-top:10px;   
+}
+
+.post__subtitle{
+    font-size:1em;
+    color:$grey;
+}

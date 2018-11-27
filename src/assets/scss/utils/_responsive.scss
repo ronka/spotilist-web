@@ -1,0 +1,21 @@
+// 1200px
+@media (min-width: $screen-lg){}
+
+// 1200px
+@media (max-width: $screen-lg){
+    .btn{
+        min-width: auto;
+    }
+}
+
+// 992px
+@media (max-width: $screen-md){
+    // fix images getting out of posts
+    .hentry .size-full{ width:100%; }
+}
+
+// 768px
+@media (max-width: $screen-sm){}
+
+// 480px
+@media (max-width: $screen-sm){}

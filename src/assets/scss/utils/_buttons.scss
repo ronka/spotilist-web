@@ -1,0 +1,32 @@
+.btn{
+    min-width: 100px;
+    padding: 3px 12px;
+    &.btn-sm{
+        @media (max-width:$screen-xs){
+            font-size:2.8vw;
+        }
+    }
+}
+
+.post__footer--links .btn{
+    margin: 0 5px;
+    font-size:14px;
+    text-transform: uppercase;
+}
+
+.btn-search{
+    padding:0;
+    margin:0;
+    color:inherit;
+    width: auto;
+    min-width: auto;
+}
+
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    .btn{
+        min-width:auto;
+        width:auto;
+    }
+}

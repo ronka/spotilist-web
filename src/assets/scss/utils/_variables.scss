@@ -1,0 +1,91 @@
+//== Globals
+//
+//## Some global settings used throughout the project
+
+$font-family-sans-serif:  "CooperHewitt", Helvetica, Arial, sans-serif;
+
+// navbar
+$header-height: 144px;
+$header-height-mobile: 63px;
+
+//== Colors
+//
+//## grey and brand colors for use across Bootstrap.
+
+$font-size-base: 14px;
+$brand-primary: #1b4263;
+$brand-secondary: #d12e4b;
+$focus-color: #d12e4b; // rgba(81, 203, 238, 1)
+$hover-color: #52A5C6;
+
+$blue-1: #52A5C6;
+$blue-2: #A8C6D8;
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+$text-color: #1e2226;
+$grey: #777;
+$grey-2: #d8e6ed;
+$grey-3: #F1F1F1;
+$brand-info: #0b1742;
+$brand-grey: #55596b;
+
+//== Components
+//
+//## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
+
+$border-radius-base:        0;
+$border-radius-large:       0;
+$border-radius-small:       0;
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-font-weight: 700;
+
+$btn-primary-bg: $brand-secondary;
+$btn-info-bg: $hover-color;
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:  "Almoni", Helvetica, Arial, sans-serif !default;
+$headings-font-weight:    700;
+$headings-color: $brand-primary;
+$font-size-base: 16px;
+$line-height-base:1.7;
+
+//== Grid system
+//
+//## Define your custom responsive grid.
+
+$grid-gutter-width: 30px;
+$container-large-desktop:      (1170px + $grid-gutter-width);
+
+//-- Z-index master list
+//
+// Warning: Avoid customizing these values. They're used for a bird's eye view
+// of components dependent on the z-axis and are designed to all work together.
+//
+// Note: These variables are not generated into the Customizer.
+
+$zindex-1: 10;
+$zindex-2: 20;
+$zindex-3: 30;
+$zindex-4: 40;
+
+//== Forms
+//
+//##
+
+$input-border-radius:0;
+$input-height-base: $font-size-base * 3;
+
+::-webkit-input-placeholder {color: $brand-grey !important;}
+:-moz-placeholder           {color: $brand-grey !important;}
+::-moz-placeholder          {color: $brand-grey !important;}
+:-ms-input-placeholder      {color: $brand-grey !important;}  

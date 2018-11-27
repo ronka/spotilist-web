@@ -1,0 +1,12 @@
+//== Main webfonts
+//
+//##
+@include font-face("CooperHewitt", "assets/webfonts/CooperHewittLight", 100);
+@include font-face("CooperHewitt", "assets/webfonts/CooperHewittMedium", 400);
+@include font-face("CooperHewitt", "assets/webfonts/CooperHewittSemibold", 700);
+
+//== Fontawesome webfonts path
+//
+//##
+
+$fa-font-path: "assets/vendor/fontawesome/webfonts";
