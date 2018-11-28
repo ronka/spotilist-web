@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 
 import Grid from '@material-ui/core/Grid'
 
-import Category from '../../components/partials/Category';
+import GenreItem from '../../components/partials/GenreItem';
 
 
 
-class CategoryList extends Component {
+class GenreList extends Component {
 	render() {
-		const categories = [
+		const genres = [
 			{
 				name: 'רוק',
 				slug: 'rock',
@@ -29,10 +29,10 @@ class CategoryList extends Component {
 		<div style={{ padding: '10px 8%', fontSize: '15px' }}>
 			<Grid container spacing={16}>
 
-				{categories.map( category => {
+				{genres.map( genre => {
 					return(
 						<Grid item xs={6} sm={4} md={3}>
-							<Category data={category} />
+							<GenreItem data={genre} />
 						</Grid>
 					)
 				} )}
@@ -44,4 +44,4 @@ class CategoryList extends Component {
 	}	
 }
 
-export default CategoryList;
+export default GenreList;

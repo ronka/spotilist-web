@@ -1,19 +1,24 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
 
-import './Category.scss';
+import './GenreItem.scss';
 
-class Category extends Component {
-	render(props) {
+class GenreItem extends Component {
+	render() {
 		
 		const category = this.props.data;
 
 		return (
-		<ButtonBase style={{
-			backgroundImage: 'url(' + category.image + ')',
-		}} className="category" >
+		<ButtonBase
+		  component={Link} to="/genre"
+		  style={{
+		  	backgroundImage: 'url(' + category.image + ')',
+		  }}
+		  //component={categoryLink}
+		  className="category" >
 			<Typography variant="h4" className="category__name" style={{color:'#fff'}}>
 				{category.name}
 			</Typography>
@@ -22,4 +27,4 @@ class Category extends Component {
 	}	
 }
 
-export default Category;
+export default GenreItem;

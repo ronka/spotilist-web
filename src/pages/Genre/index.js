@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 
 import Header from '../../components/global/Header';
-import GenreList from '../../components/partials/GenreList';
+import PlaylistList from '../../components/partials/PlaylistList';
 
-class Home extends Component {
+class Genre extends Component {
 	render() {
 		return (
 			<div>
 				<Header />
-				<GenreList />
+				<PlaylistList />
 			</div>
 		);
 	}	
 }
 
-export default Home;
+export default Genre;

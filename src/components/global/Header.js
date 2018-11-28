@@ -7,7 +7,6 @@ import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import Grid from '@material-ui/core/Grid'
 
-
 import green from '@material-ui/core/colors/green'
 
 const theme = createMuiTheme({
@@ -23,7 +22,7 @@ class Header extends Component {
 		<MuiThemeProvider theme={theme}>
 			<AppBar position="static" color="primary" >
 				<Toolbar>
-					<Grid alignContent="center" xs={12}>
+					<Grid item xs={12}>
 						<Typography variant="title" align="center" color="inherit">
 							React & Material-UI Sample Application
 						</Typography>
